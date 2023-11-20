@@ -68,7 +68,7 @@ def topratedmovies():
 
 tmdb = TMDb()
 tmdb_movie=Movie()
-tmdb.api_key = '415fc8ed6895e8c714ed4862143e8882'
+tmdb.api_key = ''  #Replace with your API Key
 
 def extract_moviedetails(x):     
     

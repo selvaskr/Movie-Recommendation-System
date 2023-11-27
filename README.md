@@ -9,9 +9,14 @@ The system showcases the latest upcoming and top-rated movies on the home page, 
 
 For the dataset, I collected three datasets from Kaggle:
 
-* The first dataset contains data from 1916 to 2016.
-* The second dataset spans from 1816 to 2017.
-* The third dataset covers the years 2008 to 2021.
+* The first dataset contains data from 1916 to 2016.(Upload in the Dataset Foider)
+* The second dataset spans from 1816 to 2017.(Cannot upload to Dataset Folder due to Large size.)
+  
+  Dataset Link:
+  
+      https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=movies_metadata.csv , 
+      https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=credits.csv   
+* The third dataset covers the years 2008 to 2021.(Upload in the Dataset Foider)
 * Additionally, for the year 2022, movie data was scraped from Wikipedia using web scraping techniques, while genre information was obtained through the TMDB API.
 
 ## Pre-processing
@@ -29,7 +34,15 @@ Pre-processing was implemented in three different files for each dataset:
 
 I have imported the combined dataset and computed the cosine similarity matrix for the dataset. Due to the large size (10 GB) of the similarity matrix, it takes a considerable amount of time to run. Therefore, I have saved it as a pickle file. This way, every time the program runs, it can use the saved file instead of recomputing the cosine similarity.
 
-** I have didnot upload the similarity matrix file due to its large size. **
+❌❌ I have didnot upload the similarity matrix file due to its large size. ❌❌
+
+
+# Installation:
+* Clone this repository.
+* Create a virtual environment.
+* Activate the environment.
+* Install the required dependencies with pip install -r requirements.txt.
+* Run file the from the folder recommendsystem.[py manage.py runserver]
 
 # Website Screenshots:
 
